@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "faceliveness"
+version = "0.1.0"
+description = ""
+authors = ["ramkumar.kh@karkinos.in <ramkumar.kh@karkinos.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cvzone = "^1.6.1"
+mediapipe = "^0.10.9"
+ultralytics = "^8.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
